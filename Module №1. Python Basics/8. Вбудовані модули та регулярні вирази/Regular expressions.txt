@@ -1,0 +1,30 @@
+Text File: example.txt
+
+1. Phone Numbers:
+    - John's phone number: +1 (555) 123-4567
+    - Sarah's phone number: 555-987-6543
+    - Office phone number: (555) 789-0123
+
+2. Email Addresses:
+    - John's email: john.doe@example.com
+    - Sarah's email: sarah.smith@example.com
+
+3. Dates:
+    - Meeting date: 2023-05-30
+    - Event date: 2023/06/15
+    - Birthday: 12/31/1990
+
+4. URLS:
+    - Website 1: https://www.example.com
+    - Website 2: http://subdomain.example.com
+    - Invalid URL: ftp://example.com
+
+5. Names:
+    - John Doe
+    - Sarah Smith
+    - Jane Johnson
+
+6. Sentences:
+    - The quick brown fox jumps over the lazy dog.
+    - I love programming with Python!
+    - Regex is a powerful tool for pattern matching.
