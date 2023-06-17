@@ -9,4 +9,3 @@ def generator(n):
 number = generator(int(input("Послідовність непарних чисел від 1 до ")))
 for num in number:
     print(num)
-
