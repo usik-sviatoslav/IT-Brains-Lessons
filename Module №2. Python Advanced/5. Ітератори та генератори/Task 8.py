@@ -1,7 +1,5 @@
 
 # Завдання №8. Напишіть генератор, який видає послідовність простих чисел.
-<<<<<<< HEAD
-=======
 
 def prime_generator():
     yield 2
@@ -25,4 +23,3 @@ my_range = int(input("Введи кількість простих чисел: "
 generator = prime_generator()
 for num in range(my_range):
     print(next(generator))
->>>>>>> 1ce66cc (Modified)

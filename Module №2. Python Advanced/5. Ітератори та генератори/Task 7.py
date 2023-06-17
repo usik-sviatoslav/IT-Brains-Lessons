@@ -1,7 +1,5 @@
 
 # Завдання №7. Створіть ітератор, який перебирає всі парні числа з заданого діапазону.
-<<<<<<< HEAD
-=======
 
 class Iterator:
     def __init__(self, numbers):
@@ -26,4 +24,3 @@ print("Парні числа заданого діапазону")
 num_1, num_2 = int(input("Перше число: ")), int(input("Друге число: "))
 for i in Iterator(list(range(num_1, num_2 + 1))):
     print(i)
->>>>>>> 1ce66cc (Modified)
