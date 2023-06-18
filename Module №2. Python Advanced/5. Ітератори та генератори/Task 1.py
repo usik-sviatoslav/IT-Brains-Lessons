@@ -4,13 +4,13 @@
 # які діляться як на 3, так і на 5.
 
 def even_odd_generator(n):
-    for num in range(1, n):
+    for num in range(1, n + 1):
         if num % 3 == 0 and num % 5 == 0:
-            print("FizzBuzz")
+            yield "FizzBuzz"
         elif num % 5 == 0:
-            print("Buzz")
+            yield "Buzz"
         elif num % 3 == 0:
-            print("Fizz")
+            yield "Fizz"
         else:
             yield num
 
