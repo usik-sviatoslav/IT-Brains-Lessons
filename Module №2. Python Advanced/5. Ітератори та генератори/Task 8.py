@@ -3,7 +3,7 @@
 
 def prime_generator():
     yield 2
-    primes = []
+    primes = [2]
     number = 3
 
     while True:
@@ -15,6 +15,7 @@ def prime_generator():
 
         if is_prime:
             yield number
+            primes.append(number)
 
         number += 2
 
