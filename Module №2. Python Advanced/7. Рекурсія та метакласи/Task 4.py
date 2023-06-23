@@ -9,8 +9,6 @@ class NoDunderAttributes(type):
         for key in attrs:
             if re.compile(r"^_\w+__\w+$").search(key):
                 raise TypeError('It is impossible to have attribute names beginning with "__"')
-
-        attrs["secret_attribute"] = "secret_attribute"
         super().__init__(name, bases, attrs)
 
 
