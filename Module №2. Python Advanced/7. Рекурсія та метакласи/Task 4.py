@@ -4,12 +4,12 @@
 
 
 class NoDunderAttributes(type):
-    def __init__(cls, name, bases, attrs):
+    def __new__(cls, name, bases, attrs):
         import re
         for key in attrs:
             if re.compile(r"^_\w+__\w+$").search(key):
                 raise TypeError('It is impossible to have attribute names beginning with "__"')
-        super().__init__(name, bases, attrs)
+        return super().__new__(cls, name, bases, attrs)
 
 
 class MyPrivateClass(metaclass=NoDunderAttributes):
