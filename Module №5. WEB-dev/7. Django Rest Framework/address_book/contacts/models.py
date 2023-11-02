@@ -22,4 +22,4 @@ class Contact(models.Model):
     objects = ContactManger()
 
     def __str__(self):
-        return f"{self.first_name} {self.last_name}"
+        return f'{self.first_name} {self.last_name}'
